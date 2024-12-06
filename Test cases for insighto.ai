@@ -1,0 +1,72 @@
+Test Cases 
+Registration
+
+1.Verify successful registration with valid input
+2.Verify registration fails when "Confirm password" does not match "Password"
+3.Verify registration with invalid email format
+4. Verify registration fails when mandatory fields are left empty
+5.Verify registration with maximum length input
+6.Verify registration with special characters in First Name and Last Name
+7.Verify registration with leading/trailing spaces in inputs
+8.Verify case-sensitivity of email and password
+9.Verify registration fails with SQL injection in input fields
+10. Verify registration with existing email
+11.Verify response time for registration submission
+12.Verify response time for registration submission
+13.Verify behavior under high traffic
+14. Verify that a verification email is sent to the specified email address when this screen appears.
+15.Verify that clicking the "Click to resend" link resends the verification email.
+16.Verify that the application confirms the email has been sent successfully after clicking "resend."
+17.Verify that clicking the verification link in the email redirects the user to the correct page (e.g., login or dashboard).
+18.Verify that an error message is displayed if the user clicks "Click to resend" but there was an issue sending the email.
+19.Simulate a scenario where the email address is invalid or unreachable and verify that an appropriate error message is displayed.
+20.Verify the display and functionality of this screen on different browsers (e.g., Chrome, Firefox, Safari, Edge).
+21.Verify the time it takes to process and send the email when "Click to resend" is clicked
+
+
+
+
+Login 
+
+1.Verify login with valid email and password
+2.Verify "Forgot password" functionality
+3.Verify login using "Google" or "Microsoft" authentication
+4.Verify login with an invalid email format
+5.Verify login with an incorrect email
+6.Verify login with empty email and password fields
+7.Verify login with empty email field
+8.Verify login with empty password field
+9.Verify the "Login" button is disabled when fields are empty
+10.Verify the visibility toggle functionality for the password field
+11. Verify alignment and appearance of the Login page
+12.Verify login with SQL injection
+13.Verify login with cross-site scripting (XSS) attack
+
+
+Dashboard 
+1.Verify that the welcome message displays the correct user name
+2.Verify that each item in the navigation menu (e.g., Dashboard, Playground, Engagements) redirects to the correct page.
+3.Verify that each stat (e.g., Assistants, Data Sources, Widgets, Conversations, Queries, Voice Queries) correctly shows a count of 0 initially.
+4.Verify that the graph accurately displays conversations data for the selected date range.
+5.Verify that selecting a different date range updates the "Conversations Per Day" graph.
+6.Verify that clicking the "X" in the welcome guide closes the message
+7.Verify that clicking the "Queries? We’re here to help!" button opens the help or support chat.	
+8.Verify that all elements (menu, stats, graph, etc.) are properly aligned and responsive on various screen sizes.
+9.Verify that the "Conversations Per Day" graph is rendered clearly without overlapping text or data points.
+10.Verify that the welcome guide text provides accurate and complete information about how to set up AI agents.
+11.Verify that the user can reopen the welcome guide from the help section if it was closed.
+12.Verify that the user can input custom date ranges manually and the graph updates accordingly.
+13.Verify that the statistics cards (e.g., Assistants, Data Sources, Queries) update dynamically as new data becomes available.
+14.Verify that clicking on each statistics card redirects the user to the relevant section or provides a detailed view of that metric.
+15.Verify that the stats cards display 0 or a placeholder message when no data is available.
+16.Verify that clicking on the user profile icon (bottom-left) opens the profile management section.
+17.Verify that clicking the settings gear (bottom-left) redirects the user to the settings page.
+18.Verify that the settings menu allows users to update account preferences (e.g., language, theme).
+19.Verify that each user only sees their own data (e.g., stats, conversations) and not data belonging to other users.
+20.Verify that features and data visibility are adjusted based on the user's role (e.g., admin, agent).
+21.Verify that users can export the "Conversations Per Day" graph as an image or CSV file.
+22.Verify that users can export the statistics data (e.g., total conversations, queries) for a selected date range.
+23.Verify that the graph displays a fallback message if data fetching fails due to network or server issues.
+24.Verify that unauthorized users cannot access the dashboard and are redirected to the login page.
+25.Verify that clicking the notifications icon (bell icon) displays a list of recent notifications.
+26.Verify that the bell icon displays the count of unread notifications.
