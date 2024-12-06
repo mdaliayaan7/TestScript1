@@ -1,0 +1,18 @@
+Comprehensive API Validation
+1.Proficient in using Swagger to understand and validate API documentation, ensuring endpoints are well-documented, parameters are defined correctly, and responses adhere to expected formats.
+
+Functional API Testing
+1.Skilled in creating, executing, and managing API test cases in Postman, including testing GET, POST, PUT, DELETE, and PATCH requests across multiple environments.
+
+
+Automated API Testing
+1. Experience in leveraging Postman Collections and integrating with automation pipelines to perform automated and repeatable API testing, ensuring consistent quality across builds.
+
+API Workflow Validation
+ 1.Tested complex API workflows and dependencies by chaining requests in Postman, validating end-to-end scenarios to ensure seamless functionality.
+
+API Security Testing
+ 1.Proficient in testing API security features, such as OAuth, API keys, and JWTs, using Postman and ensuring endpoints are protected against unauthorized access.
+
+Collaboration and Reporting
+ 1.Utilized Swagger as a collaborative platform between developers and testers to align on API designs, and Postman for generating and sharing detailed API test reports with stakeholders.
