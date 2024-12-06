@@ -1,0 +1,41 @@
+def findTotalArticlesByLanguages(data, languages):
+   
+    total_articles = 0
+    for language in languages:
+        if language in data:
+            total_articles += data[language]
+        else:
+            print(f"Warning: {language} not found in data.")
+    return total_articles
+
+
+# Predefined table data extracted from the image
+table_data = {
+    "English": 6562386,
+    "Cebuano": 6125564,
+    "German": 2733833,
+    "Swedish": 2554666,
+    "French": 2443069,
+    "Dutch": 2104093,
+    "Russian": 1860462,
+    "Spanish": 1777143,
+    "Italian": 1777143,
+    "Egyptian Arabic": 1604302,
+    "Polish": 1538757,
+    "Japanese": 1371487,
+    "Chinese": 1311584,
+    "Vietnamese": 1277034,
+    "Waray-Waray": 1250095,
+    "Ukrainian": 1200915,
+    "Arabic": 1189316,
+    "Portuguese": 1095796,
+}
+
+# Example languages to calculate total articles for
+languages_to_calculate = ["English", "German"]
+
+# Calculate the total
+total_articles = findTotalArticlesByLanguages(table_data, languages_to_calculate)
+
+# Output the result
+print(f"Total articles for {languages_to_calculate}: {total_articles}")
